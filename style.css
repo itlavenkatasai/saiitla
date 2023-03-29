@@ -1,0 +1,168 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.topheader{
+    height: 20px;
+    background-color: grey;
+    color:white;
+    padding: 5px;
+}
+.header{
+    height: 70px;
+    padding: 10px;
+    padding-top: 15px;
+}
+.menubar{
+    height: 25px;
+    background-color: gray;
+}
+.bodypart{
+    height:auto;
+    border:2px solid black;
+    display: block;
+}
+.toppart1{
+    float:left;
+}
+.toppart2{
+    float:right;
+}
+.header1 img{
+    width:5%;
+    float:left;
+}
+.header2{
+    width: 50%;
+    float: left;
+    font-size: 30px;
+    font-family: sans-serif;
+    padding: 10px;
+
+}
+.header3{
+    width:5%;
+    float: right;
+    margin-left: 20px;
+    padding: 25px;
+}
+.header3 a{
+    text-decoration: none;
+    background-color:white;
+    border: 2px solid blue;
+    border-radius: 5px;
+    color:sandybrown;
+    padding: 10px;
+
+}
+.header3 a:hover{
+    background-color: red;
+    color:yellow;
+}
+.menubar ul{
+    width:100%;
+    list-style: none;
+    
+}
+.menubar ul li{
+    float:left;
+}
+.menubar ul li a{
+    display: block;
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: arial;
+padding: 3px 40px;
+}
+.menubar ul li a:hover{
+    background-color: red;
+    color:yellow;
+}
+.section{
+    text-align: center;
+    color: red;
+    font-weight: normal;
+}
+.courses{
+    width:80%;
+    margin:0 auto auto;
+    height: 520px;
+}
+.coursediv{
+    width:22%;
+    height: 220px;
+    border: 2px solid;
+    box-shadow: 5px 3px red;
+    border-radius: 8px;
+    float:left;
+    margin: 2% 1%;
+    text-align: center;
+}
+.coursediv img{
+    width:100%;
+    border-radius: 8px;
+}
+.coursediv a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.enroll{
+    background-color: green;
+    width: 100px;
+    height: 25px;
+    color: yellow;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+.enroll:hover{
+background-color: indigo;
+}
+.success img{
+    width: 170px;
+    height: 250px;
+    margin-right: 30px;
+    border-radius: 5px;
+}
+.about{
+    width:80%;
+    margin: 0 auto auto;
+    text-align: center;
+    font-size: 20px;
+}
+.footer{
+    height: 350px;
+    width:100%;
+    background-color:black;
+    color: white;
+    padding: 45px;
+    
+}
+.footer1{
+    width:30%;
+    float: left;
+    
+}
+.footer3{
+width: 40%;
+float:left;
+}
+.footer h1{
+    color: yellow;
+      font-weight: normal;
+}
+.footerform{
+    width:288px;
+}
+.loginform{
+  width: 20%;
+  margin: 0 auto auto;  
+  text-align: center;
+}
